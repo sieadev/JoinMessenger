@@ -31,10 +31,10 @@ public class PlayerConnectionEvents implements Listener {
             e.setJoinMessage(null);
         }
         else if (player.hasPlayedBefore()){
-            e.setJoinMessage(replacePlaceholders(joinMessageTemplate, player));
+            e.setJoinMessage(replacePlaceholdersJoin(joinMessageTemplate, player));
         }
         else{
-            e.setJoinMessage(replacePlaceholders(firstJoinMessageTemplate, player));
+            e.setJoinMessage(replacePlaceholdersJoin(firstJoinMessageTemplate, player));
         }
     }
 
@@ -45,15 +45,23 @@ public class PlayerConnectionEvents implements Listener {
             e.setQuitMessage(null);
         }
         else{
-            e.setQuitMessage(replacePlaceholders(quitMessageTemplate, player));
+            e.setQuitMessage(replacePlaceholdersLeave(quitMessageTemplate, player));
         }
 
     }
 
-    private String replacePlaceholders(String message, Player player){
+    private String replacePlaceholdersJoin(String message, Player player){
         if (message == null || player == null) return null;
         message = message.replace("%player%", player.getDisplayName());
         message = message.replace("%playercount%", String.valueOf(player.getServer().getOnlinePlayers().size()));
+        message = message.replace("%maxplayers%", String.valueOf(player.getServer().getMaxPlayers()));
+        return message;
+    }
+
+    private String replacePlaceholdersLeave(String message, Player player){
+        if (message == null || player == null) return null;
+        message = message.replace("%player%", player.getDisplayName());
+        message = message.replace("%playercount%", String.valueOf(player.getServer().getOnlinePlayers().size() - 1));
         message = message.replace("%maxplayers%", String.valueOf(player.getServer().getMaxPlayers()));
         return message;
     }

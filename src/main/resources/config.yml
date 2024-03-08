@@ -17,5 +17,5 @@
 
 # ----------------------------Settings---------------------------- #
 joinMessage: "&a%player%&e joined the Server &7(%playercount%/%maxplayers%)"
-firstJoinMessage: "&a%player%&e joined the Server for the first time! &dWelcome!&7(%playercount%/%maxplayers%)"
-quitMessage: "&a%player%&e left the server!&7(%playercount%/%maxplayers%)"
+firstJoinMessage: "&a%player%&e joined the Server for the first time! &dWelcome! &7(%playercount%/%maxplayers%)"
+quitMessage: "&a%player%&e left the server &7(%playercount%/%maxplayers%)"
