@@ -1,0 +1,7 @@
+name: JoinMessenger
+version: '${project.version}'
+main: siea.dev.joinmessenger.JoinMessenger
+load: STARTUP
+authors: [siea]
+description: A Plugin to modify Join messages
+website: siea.dev
