@@ -13,7 +13,7 @@ If you find JoinMessenger useful and want to show your support, consider buying 
 Your support helps me continue to improve and maintain this plugin. Thank you for your generosity!
 
 ## Features
-#### 1. Item Limits:
+#### 1. Modify Messages:
 ```Modify or disable Join, First Join and Quit messeges```
 
 #### 2. Hide Players
