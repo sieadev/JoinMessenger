@@ -1,7 +1,7 @@
 # JoinMessenger
 
 ## Overview
-JoinMessenger is a Plugin to modify Join and Leave messages
+JoinMessenger is a Plugin to modify Join and Quit messages
 
 ## Support the Project
 If you find JoinMessenger useful and want to show your support, consider buying me a coffee on Ko-fi!
