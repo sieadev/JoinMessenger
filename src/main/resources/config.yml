@@ -1,0 +1,21 @@
+# -------------------------Join Messenger------------------------- #
+# JoinMessenger - A Plugin to modify Join and Leave messages
+# Developer: siea
+# Contact Discord[@sieadev] GitHub[@sieadev] Email[Contact@siea.dev]
+
+# ------------------------------Info------------------------------ #
+# To completely disable a message leave it empty
+
+# Placeholders
+# %player% the name of the player triggering the event
+# %playercount% the amount of online players
+# %maxplayers% the amount of maximum players
+
+# Permissions
+# joinMessenger.hideJoin - Players with this permission will NOT produce a join messages
+# joinMessenger.hideQuit - Players with this permission will NOT produce a quit messages
+
+# ----------------------------Settings---------------------------- #
+joinMessage: "&a%player%&e joined the Server &7(%playercount%/%maxplayers%)"
+firstJoinMessage: "&a%player%&e joined the Server for the first time! &dWelcome!&7(%playercount%/%maxplayers%)"
+quitMessage: "&a%player%&e left the server!&7(%playercount%/%maxplayers%)"
