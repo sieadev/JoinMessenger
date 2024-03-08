@@ -1,5 +1,7 @@
 # JoinMessenger
 
+![image](https://github.com/sieadev/JoinMessenger/assets/69807609/f3300e3d-bb86-4664-bb84-0a7f3d0a77fb)
+
 ## Overview
 JoinMessenger is a Plugin to modify Join and Quit messages
 
