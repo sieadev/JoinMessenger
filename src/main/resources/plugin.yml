@@ -5,3 +5,4 @@ load: STARTUP
 authors: [siea]
 description: A Plugin to modify Join and Quit messages
 website: siea.dev
+api-version: 1.13
